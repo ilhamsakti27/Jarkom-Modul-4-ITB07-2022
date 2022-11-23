@@ -1,5 +1,5 @@
-# Jarkom-Modul-3-ITB07-2022
-Repositori ini berisi dokumentasi pengerjaan soal shift modul 3 Jaringan Komputer kelompok ITB07.
+# Jarkom-Modul-4-ITB07-2022
+Repositori ini berisi dokumentasi pengerjaan soal shift modul 4 Jaringan Komputer kelompok ITB07.
 
 Kelompok ITB07:
 5027201004 Alda Risma Harjian
