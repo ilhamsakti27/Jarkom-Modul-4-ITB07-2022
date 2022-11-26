@@ -125,9 +125,9 @@ Hal pertama yang kami lakukan adalah dengan menentukan subnet yang ada pada topo
 ![](./images/VLSM_gambaran%20cisco.png) <br>
 ![](./images/vlsm-topologi.jpeg) <br>
 
-Melakukan Assign seluruh Host dan Interface Router sesuai dengan tabel perhitungan yang telah dibuat Untuk melakukan Assign contohnya adalah sebagai berikut:
+Melakukan Assign seluruh Host dan Interface Router sesuai dengan tabel perhitungan yang telah dibuat Untuk melakukan Assign contohnya adalah sebagai berikut: <br>
 1. Pada bagian Host/ Server buka Desktop, Ip Configuration lalu isikan: IP4 address: [IP Host] Subnet Mask: [Subnet pada bagian tersebut] Gateway: [IP Router Interface yang terhubung ke host]. Contoh konfigurasi pada host PC-PC Ashaf yang terhubung dengan Router The Order.<br>
-![PC Ashaf](./images/VLSM_assign_Ashaf.png)
+![PC Ashaf](./images/VLSM_assign_Ashaf.png) <br>
 2. Pada bagian Router melakukan Assign terhadap IP Address dan subnet mask interface router tersebut. Contoh konfigurasi pada Router The Order. <br>
 ![Router The Order](./images/VLSM_assign_The%20Order.png)
 
