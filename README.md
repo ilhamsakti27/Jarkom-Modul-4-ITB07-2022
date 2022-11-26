@@ -126,8 +126,10 @@ Hal pertama yang kami lakukan adalah dengan menentukan subnet yang ada pada topo
 ![](./images/vlsm-topologi.jpeg) <br>
 
 Melakukan Assign seluruh Host dan Interface Router sesuai dengan tabel perhitungan yang telah dibuat Untuk melakukan Assign contohnya adalah sebagai berikut:
-1. Pada bagian Host/ Server buka Desktop, Ip Configuration lalu isikan: IP4 address: [IP Host] Subnet Mask: [Subnet pada bagian tersebut] Gateway: [IP Router Interface yang terhubung ke host].
-2. Pada bagian Router melakukan Assign terhadap IP Address dan subnet mask interface router tersebut.
+1. Pada bagian Host/ Server buka Desktop, Ip Configuration lalu isikan: IP4 address: [IP Host] Subnet Mask: [Subnet pada bagian tersebut] Gateway: [IP Router Interface yang terhubung ke host]. Contoh konfigurasi pada host PC-PC Ashaf yang terhubung dengan Router The Order.<br>
+![PC Ashaf](./images/VLSM_assign_Ashaf.png)
+2. Pada bagian Router melakukan Assign terhadap IP Address dan subnet mask interface router tersebut. Contoh konfigurasi pada Router The Order. <br>
+![Router The Order](./images/VLSM_assign_The%20Order.png)
 
 Testing Ping:
 - Dari PC-PT Guideau ke PC-PC Johan.
@@ -135,3 +137,7 @@ Testing Ping:
 - Dari PC-PT Ashaf ke PC-PT Spendrow.
 ![PC-PT Ashaf ke PC-PT Spendrow](./images/test%20ping%20dua.png)
 ### Metode CIDR
+
+
+### Kendala
+Kami terkendala bagian pembagian pohon IP CIDR
