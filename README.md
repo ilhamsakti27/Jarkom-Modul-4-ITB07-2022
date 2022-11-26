@@ -88,7 +88,7 @@ Hal pertama yang kami lakukan adalah dengan menentukan subnet yang ada pada topo
 |/25	|3|
 |/26	|1|
 |/27	|0|
-|/|28	|0|
+|/28	|0|
 |/29	|0|
 |/30	|9|
 |Total	|18|
@@ -137,7 +137,37 @@ Testing Ping:
 - Dari PC-PT Ashaf ke PC-PT Spendrow.
 ![PC-PT Ashaf ke PC-PT Spendrow](./images/test%20ping%20dua.png)
 ### Metode CIDR
+Berikut langkah-langkah subnetting dan router menggunakan metode CIDR.
+1. Langkah pertama
+![langkah pertama](./images/CIDR%20Step%201.png)
+2. Langkah kedua
+![langkah kedua](./images/CIDR%20Step%202.png)
+3. Langkah ketiga
+![langkah ketiga](./images/CIDR%20Step%203.png)
+4. Langkah keempat
+![langkah keempat](./images/CIDR%20Step%204.png)
+5. Langkah kelima
+![langkah kelima](./images/CIDR%20Step%205.png)
+6. Langkah keenam
+![langkah keenam](./images/CIDR%20Step%206.png)
+7. Langkah ketujuh
+![langkah ketujuh](./images/CIDR%20Step%207.png)
+8. Langkah kedelapan
+![langkah kedelapan](./images/CIDR%20Step%208.png)
 
+#### Tabel kesimpulan kombinasi CIDR
+|Langkah|Hasil Kombinasi|Sumber Kombinasi|Prefix Sebelum|Prefix Kombinasi|
+|---|---|---|---|---|
+|1|B1|A7 + A16|/24 + /30| /23|
+|1|B2|A8 + A9 |/30 + /24| /23|
+|1|B3|A5 + A14|/23 + /30| /22|
+|1|B4|A6 + A11|/25 + /25| /24|
+|2|C1|A1 + B1 |/22 + /23| /21|
+|2|C2|A10 + B2|/23 + /23| /22|
+|2|C3|A3 + B3 |/30 + /22| /21|
+|2|C4|A17 + B4|/30 + /24| /23|
+|3|D1|A12 + C1|/30 + /21| /20|
+|3|D2|A18 + C2|/30 + /22| /21|
 
 ### Kendala
 Kami terkendala bagian pembagian pohon IP CIDR
