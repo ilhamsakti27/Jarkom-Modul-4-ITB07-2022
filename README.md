@@ -122,7 +122,8 @@ Hal pertama yang kami lakukan adalah dengan menentukan subnet yang ada pada topo
 ![Pohon pembagian IP](./images/VLSM_pohon%20pembagian%20IP.jpg)
 
 #### Konfigurasi pada Cisco Packet Tracer
-![](./images/VLSM_gambaran%20cisco.png)
+![](./images/VLSM_gambaran%20cisco.png) <br>
+![](./images/vlsm-topologi.jpeg) <br>
 
 Melakukan Assign seluruh Host dan Interface Router sesuai dengan tabel perhitungan yang telah dibuat Untuk melakukan Assign contohnya adalah sebagai berikut:
 1. Pada bagian Host/ Server buka Desktop, Ip Configuration lalu isikan: IP4 address: [IP Host] Subnet Mask: [Subnet pada bagian tersebut] Gateway: [IP Router Interface yang terhubung ke host].
