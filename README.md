@@ -178,11 +178,11 @@ Berikut langkah-langkah subnetting dan router menggunakan metode CIDR.
 
 Oleh karena itu, pohon CIDR dimulai dengan netmask /16. Sehingga pohon yang digunakan untuk subnet CIDR adalah:
 
-![POHON cidr](./images/Pohon%20CIDR.png)
+![POHON cidr](./images/Pohon%20CID.png)
 
 Oleh karena itu, pohon CIDR dimulai dengan netmask /16. Sehingga pohon yang digunakan untuk subnet CIDR adalah:
 
-![tabel subnet](./images/Subnet%20CIDR.png)
+![tabel subnet](./images/Subnet%20CID.png)
 
 #### Setting CIDR
 
