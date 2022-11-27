@@ -144,7 +144,7 @@ Untuk revisi ini terletak pada server-PT The Witch yang sebelumnya tidak dapat m
 ![Server-PT The Witch ke Router The Resonance](./images/Witch-Resonance.png)
 - Dari Server-PT The Witch ke PC-PT MattCugat.
 ![Server-PT The Witch ke PC-PT MattCugat](./images/Witch-MattCougat.png)
-Dari Server-PT The Witch ke PC-PT Heiga.
+- Dari Server-PT The Witch ke PC-PT Heiga.
 ![Server-PT The Witch ke PC-PT Heiga](./images/Witch-Heiga.png)
 ### Metode CIDR
 Berikut langkah-langkah subnetting dan router menggunakan metode CIDR.
