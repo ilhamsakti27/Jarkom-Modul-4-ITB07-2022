@@ -137,15 +137,19 @@ Testing Ping:
 - Dari PC-PT Ashaf ke PC-PT Spendrow.
 ![PC-PT Ashaf ke PC-PT Spendrow](./images/test%20ping%20dua.png)
 ## Revisi
-Untuk revisi ini terletak pada server-PT The Witch yang sebelumnya tidak dapat mengirimkan data.
+Untuk revisi ini terletak pada server-PT The Witch yang sebelumnya tidak dapat mengirimkan data dan juga sebaliknya.
 - Dari Server-PT The Witch ke PC-PT Johann dan juga sebaliknya.
 ![Server-PT The Witch ke PC-PT Johann](./images/Witch-Johann.png)
 - Dari Server-PT The Witch ke Router The Resonance.
 ![Server-PT The Witch ke Router The Resonance](./images/Witch-Resonance.png)
 - Dari Server-PT The Witch ke PC-PT MattCugat.
-![Server-PT The Witch ke PC-PT MattCugat](./images/Witch-MattCougat.png)
+![Server-PT The Witch ke PC-PT Matt Cugat](./images/Witch-MattCougat.png)
 - Dari Server-PT The Witch ke PC-PT Heiga.
 ![Server-PT The Witch ke PC-PT Heiga](./images/Witch-Heiga.png)
+- Dari Server-PT The Witch ke Server-PT Beast dan sebaliknya.
+![Server-PT The Witch ke Server-PT Beast](./images/Witch-Beast.png)
+- Dari Server-PT The Witch ke PC-PT Corvekt dan sebaliknya.
+![Server-PT The Witch ke PC-PT Corvekt](./images/Witch-Corvekt.png)
 ### Metode CIDR
 Berikut langkah-langkah subnetting dan router menggunakan metode CIDR.
 1. Langkah pertama
