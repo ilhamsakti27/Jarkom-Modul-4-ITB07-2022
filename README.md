@@ -196,7 +196,7 @@ Oleh karena itu, pohon CIDR dimulai dengan netmask /16. Sehingga pohon yang digu
 
 Oleh karena itu, pohon CIDR dimulai dengan netmask /16. Sehingga pohon yang digunakan untuk subnet CIDR adalah:
 
-![tabel subnet](./images/Subnet%20CID.png)
+![tabel subnet](./images/table_subnet_cidr.jpg)
 
 #### Setting CIDR
 
