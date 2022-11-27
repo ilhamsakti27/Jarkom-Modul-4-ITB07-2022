@@ -168,6 +168,24 @@ Berikut langkah-langkah subnetting dan router menggunakan metode CIDR.
 |2|C4|A17 + B4|/30 + /24| /23|
 |3|D1|A12 + C1|/30 + /21| /20|
 |3|D2|A18 + C2|/30 + /22| /21|
+|4|E1|A2 + D1 |/26 + /20| /19|
+|4|E2|A4 + D2 |/25 + /21| /20|
+|5|F1|A13 + E1|/30 + /19| /18|
+|5|F2|C4 + E2 |/23 + /20| /19|
+|6|G1|A15 + F2|/30 + /19| /18|
+|7|H1|c3 + G1 |/21 + /18| /17|
+|8|I1|F1 + H1 |/18 + /17| /16|
+
+Oleh karena itu, pohon CIDR dimulai dengan netmask /16. Sehingga pohon yang digunakan untuk subnet CIDR adalah:
+
+![POHON cidr](./images/Pohon%20CIDR.png)
+
+Oleh karena itu, pohon CIDR dimulai dengan netmask /16. Sehingga pohon yang digunakan untuk subnet CIDR adalah:
+
+![tabel subnet](./images/Subnet%20CIDR.png)
+
+#### Setting CIDR
+
 
 ### Kendala
-Kami terkendala bagian pembagian pohon IP CIDR
+Kami terkendala bagian pembagian pohon IP CIDR karena belum terlalu paham
